@@ -1,0 +1,364 @@
+html {
+  width: 100%;
+}
+
+body {
+  background: #fbfbfb;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  margin: 4rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000000;
+  color: #fafafa;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin: 1rem;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+  color: white;
+  text-decoration: none;
+}
+.center {
+  margin: auto;
+}
+h1 {
+  color: red;
+  font-style: italic;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+/* items */
+
+.image1 {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+.titreBandeau2Box{
+  
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: red;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    margin-bottom: -1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 0.4rem;
+    border-radius: 1rem 1rem 0rem 0rem;
+  }
+  h2 {
+    margin: 0rem;
+  }
+  .titreBandeauBoxA,
+  .titreBandeauBoxB{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: firebrick;
+    padding: 0.4rem;
+    text-transform: uppercase;   
+  }
+ 
+
+
+
+.bandeau {
+  background-color: rgb(0, 0, 0);
+  margin: 1rem;
+  border-radius: 1rem 0rem 1rem 1rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  
+}
+
+
+.box1 {
+  background-color: blue;
+  color: black;
+  border-radius: 0rem 0rem 0rem 1rem;
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  
+}
+.box2 {
+  background-color: black;
+  border-radius: 0rem 0rem 1rem 0rem;
+  color: white;
+  display: inline-block;
+  vertical-align: top;
+  width: 70%;
+}
+
+.bandeauAvec2box{
+  background: cyan;
+  margin: 1rem;
+  border-radius: 1rem 0rem 1rem 1rem;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  
+}
+.boxA {
+  background-color: blue;
+  color: white;
+  border-radius: 0rem 0rem 0rem 1rem;
+  display: inline-block;
+width: 50%;
+margin: 0rem;
+
+
+}
+.boxB {
+  background-color: black;
+  border-radius: 0rem 0rem 1rem 0rem;
+  color: white;
+  display: inline-block;
+
+  
+  width: 50%;
+
+ 
+}
+.titreA,
+.titreB{
+  width: 100%;
+  background-color: red;
+  text-align: center;
+  color: white;
+}
+.titreA{
+  border-radius: 1rem 0rem 0rem 0rem;
+}
+.titreB{
+  border-radius: 0rem 1rem 0rem 0rem;
+}
+
+.boxConteneurA {
+  background-color: cyan;
+}
+
+.boxConteneurB{
+  background-color: cyan;
+}
+
+.titreBandeauBoxA{
+  margin-right: -1rem;
+  width: 100%;
+}
+.titreBandeauBoxB{
+  margin-left: -1rem;
+  width: 100%;
+}
+.boxConteneurA {
+  background-color: rgb(100, 100, 163);
+  color: black;
+  border-radius: 0rem 0rem 0rem 1rem;
+  display: inline-block;
+  vertical-align: top;
+
+  margin-left: 1rem;
+
+
+  
+}
+.boxConteneurB {
+  background-color: rgb(189, 171, 171);
+  border-radius: 0rem 0rem 1rem 0rem;
+  color: white;
+  display: inline-block;
+  vertical-align: top;
+
+  margin-right: 1rem;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.telephonne {
+  height: 1.4rem;
+  margin-right: 0.5rem;
+}
+
+thead {
+  text-align: center;
+}
+
+table,
+td {
+  margin: auto;
+  padding: 1rem;
+}
+
+.image2 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #000000;
+  text-align: center;
+  margin-top: 1rem;
+  padding: 1rem 0rem 1rem 1.5rem;
+  cursor: pointer;
+  margin-right: -5rem;
+}
+
+/* [1] The container */
+.img-hover-zoom {
+  /*height: 300px; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform 0.5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.5);
+}
+
+.zoom2 {
+  overflow: hidden;
+  transition: transform 1s ease-in-out 0s;
+}
+
+.zoom2:hover {
+  animation: opacity 1s;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+.presentation {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  text-align: justify;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: dimgray;
+  margin-top: 1rem;
+}
+
+.photoElemant {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background-color: firebrick;
+  margin-top: 2rem;
+  text-transform: uppercase;
+  margin-bottom: -1rem;
+  padding: 0.4rem;
+}
+h2 {
+  margin: 0rem;
+}
+
+.image3 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #000000;
+
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.image4 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #000000;
+
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.image5 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.image6 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 7;
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+
+@media all and (max-width: 1024px) {
+  .bandeau,
+  .bandeauAvec2box 
+  {
+    flex-direction: column;
+  
+  }
+
+  .box1,
+  .box2,
+  .boxA,
+  .boxB
+   {
+    width: 100%;
+    margin: auto;
+
+  }
+  .box1{
+    border-radius: 0rem 0rem 0rem 0rem;
+  }
+  .box2{
+    border-radius: 0rem 0rem 1rem 1rem;
+  }
+}
