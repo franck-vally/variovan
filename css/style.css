@@ -61,7 +61,6 @@ img {
 
 .titreBandeau2Box {
   text-align: center;
-  font-size: 1.2rem;
   font-weight: bold;
   color: rgb(255, 255, 255);
   background-color: red;
@@ -267,7 +266,7 @@ footer {
     font-size: 1.5rem;
   }
   h2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   ul {
     font-size: 0.7rem;
