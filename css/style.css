@@ -9,7 +9,7 @@ body {
   margin: 4rem;
 }
 
-.bandeauTop {
+header {
   display: flex;
   justify-content: space-between;
   background-color: #000000;
@@ -262,6 +262,9 @@ footer {
   }
   header {
     flex-direction: column;
+  }
+  h1{
+    font-size: 1.5rem;
   }
   h2 {
     font-size: 1.2rem;
