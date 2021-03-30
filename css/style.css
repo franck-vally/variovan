@@ -138,17 +138,8 @@ img{
   margin: auto;
 }
 
-.bandeauDeuxDiv {
-  background-color: black;
-  margin-top: 1rem;
-}
 
-.photoAdresse {
-  color: black;
-  display: inline-block;
-  vertical-align: top;
-  border-radius: 1rem 1rem 0rem 0rem;
-}
+
 .sectionAdresse {
   background-color: black;
   color: white;
@@ -172,22 +163,7 @@ td {
   margin: auto;
   padding: 1rem;
 }
-.imageAdresse {
-  width: 30;
-}
-.image2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #000000;
-  cursor: pointer;
-  margin-left: 0.5rem;
-  border-radius: 1rem 1rem 1rem 1rem;
-}
 
-.containerZoom {
-  display: inline-block;
-}
 
 .boxZoom {
   display: table-cell;
@@ -212,16 +188,6 @@ td {
   transform: scale(1.5);
 }
 
-.zoom2 {
-  overflow: hidden;
-  transition: transform 1s ease-in-out 0s;
-}
-
-.zoom2:hover {
-  animation: opacity 1s;
-  transition-duration: 1s;
-  transform: scale(1.08);
-}
 
 .presentation {
   text-align: justify;
@@ -230,10 +196,6 @@ td {
   color: dimgray;
   margin-top: 1rem;
 }
-
-
-
-
 
 /* Deux box */
 .bandeauAvec2box {
@@ -281,42 +243,7 @@ td {
   border-radius: 0rem 1rem 0rem 0rem;
 }
 
-.boxConteneurA {
-  background-color: cyan;
-}
 
-.boxConteneurB {
-  background-color: cyan;
-}
-
-.titreBandeauBoxA {
-  margin-right: -1rem;
-  width: 100%;
-}
-
-.titreBandeauBoxB {
-  margin-left: -1rem;
-  width: 100%;
-}
-
-.boxConteneurA {
-  background-color: rgb(100, 100, 163);
-  color: black;
-  border-radius: 0rem 0rem 0rem 1rem;
-  display: inline-block;
-  vertical-align: top;
-
-  margin-left: 1rem;
-}
-
-.boxConteneurB {
-  background-color: rgb(189, 171, 171);
-  border-radius: 0rem 0rem 1rem 0rem;
-  color: white;
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 1rem;
-}
 .rouge{
   color: red;
 }
