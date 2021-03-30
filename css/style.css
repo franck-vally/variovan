@@ -1,6 +1,5 @@
 html {
   width: 100%;
- 
 }
 
 body {
@@ -10,8 +9,7 @@ body {
   margin: 4rem;
 }
 
-
-.bandeauTop{
+.bandeauTop {
   display: flex;
   justify-content: space-between;
   background-color: #000000;
@@ -55,7 +53,7 @@ ul {
   border-radius: 1rem 1rem 1rem 1rem;
   overflow: hidden;
 }
-img{
+img {
   width: 100%;
 }
 
@@ -138,8 +136,6 @@ img{
   margin: auto;
 }
 
-
-
 .sectionAdresse {
   background-color: black;
   color: white;
@@ -147,24 +143,19 @@ img{
   vertical-align: top;
   width: 70%;
 }
-
 .telephonne {
   height: 1.4rem;
   width: 1.4rem;
   margin-right: 0.5rem;
 }
-
 thead {
   text-align: center;
 }
-
 table,
 td {
   margin: auto;
   padding: 1rem;
 }
-
-
 .boxZoom {
   display: table-cell;
   vertical-align: middle;
@@ -188,7 +179,6 @@ td {
   transform: scale(1.5);
 }
 
-
 .presentation {
   text-align: justify;
   font-size: 1.2rem;
@@ -199,7 +189,6 @@ td {
 
 /* Deux box */
 .bandeauAvec2box {
-  
   margin-top: 1rem;
   border-radius: 1rem 1rem 1rem 1rem;
   display: flex;
@@ -243,16 +232,13 @@ td {
   border-radius: 0rem 1rem 0rem 0rem;
 }
 
-
-.rouge{
+.rouge {
   color: red;
 }
-.lienLeboncoin{
+.lienLeboncoin {
   background-color: #ff6e14;
-
 }
 footer {
-
   justify-content: space-between;
   background-color: #000000;
   color: #fafafa;
@@ -264,9 +250,9 @@ footer {
   border-radius: 1rem 1rem 1rem 1rem;
 }
 
-@media all and (max-width: 1300px){
+@media all and (max-width: 1300px) {
   .titreA,
-  .titreB{
+  .titreB {
     height: 3rem;
   }
 }
@@ -274,18 +260,17 @@ footer {
   body {
     margin: 1rem;
   }
-  header{
+  header {
     flex-direction: column;
-   
   }
-  h2{
+  h2 {
     font-size: 1.2rem;
-  } 
-  ul{
+  }
+  ul {
     font-size: 0.7rem;
     line-height: 1.5;
   }
-  td{
+  td {
     padding: 0.25rem;
   }
   .bandeau {
@@ -301,17 +286,16 @@ footer {
     font-size: 0.7rem;
     padding: 0%;
   }
-  .telephonne{
+  .telephonne {
     height: 0.7rem;
   }
- .box2Adresse{
-   margin: auto;
-   width: 100%;
-
- }
- .presentation{
-   font-size: 1rem;
- }
+  .box2Adresse {
+    margin: auto;
+    width: 100%;
+  }
+  .presentation {
+    font-size: 1rem;
+  }
 
   .bandeauAvec2box {
     flex-direction: column;
@@ -319,7 +303,7 @@ footer {
   }
 
   .titreA,
-  .titreB{
+  .titreB {
     border-radius: 1rem 1rem 0 0;
   }
 
@@ -332,7 +316,6 @@ footer {
     margin-top: 1rem;
     border-radius: 1rem 1rem 1rem 1rem;
   }
-
 
   .box1 {
     border-radius: 1rem 1rem 0rem 0rem;
