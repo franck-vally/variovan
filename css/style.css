@@ -84,7 +84,7 @@ img {
 }
 
 .bandeau {
-  background-color: rgb(0, 0, 0);
+  background-color: white;
   border-radius: 1rem 1rem 1rem 1rem;
   display: flex;
   align-items: flex-start;
