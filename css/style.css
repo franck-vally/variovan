@@ -7,13 +7,14 @@ body {
   margin: 0;
   font-family: "Roboto", sans-serif;
   margin: 4rem;
+  background-color: cornflowerblue;
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #000000;
-  color: #fafafa;
+  background-color: white;
+  color: black;
   text-align: center;
   line-height: 3rem;
   font-size: 1.6rem;
@@ -61,7 +62,7 @@ img {
 
 .titreBandeau2Box {
   text-align: center;
-  font-weight: bold;
+    font-weight: bold;
   color: rgb(255, 255, 255);
   background-color: red;
   margin-top: 2rem;
@@ -92,7 +93,7 @@ img {
 }
 
 .bandeauAdresse {
-  background-color: rgb(0, 0, 0);
+  background-color: white;
   border-radius: 1rem 1rem 1rem 1rem;
   display: flex;
   align-items: flex-start;
@@ -101,8 +102,8 @@ img {
 }
 
 .box1 {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   border-radius: 0rem 0rem 0rem 1rem;
   display: inline-block;
   margin: auto;
@@ -110,7 +111,7 @@ img {
 }
 
 .box2 {
-  background-color: black;
+  background-color: white;
   border-radius: 0rem 0rem 1rem 0rem;
   display: inline-block;
   vertical-align: top;
@@ -118,7 +119,7 @@ img {
 }
 
 .box1Adresse {
-  background-color: black;
+  background-color: white;
   border-radius: 1rem 0rem 0rem 1rem;
   display: inline-block;
   margin: auto;
@@ -126,9 +127,9 @@ img {
   margin: auto;
 }
 .box2Adresse {
-  background-color: black;
+  background-color: white;
   border-radius: 0rem 1rem 1rem 1rem;
-  color: white;
+  color: black;
   display: inline-block;
   vertical-align: top;
   width: 70%;
@@ -136,8 +137,8 @@ img {
 }
 
 .sectionAdresse {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   display: inline-block;
   vertical-align: top;
   width: 70%;
@@ -154,6 +155,7 @@ table,
 td {
   margin: auto;
   padding: 1rem;
+  white-space: nowrap;
 }
 .boxZoom {
   display: table-cell;
@@ -179,11 +181,15 @@ td {
 }
 
 .presentation {
+  background-color: white;
+  border-radius: 1rem 1rem 1rem 1rem;
+  color: black;
   text-align: justify;
   font-size: 1.2rem;
   font-weight: bold;
   color: dimgray;
   margin-top: 1rem;
+  padding: 2rem;
 }
 
 /* Deux box */
@@ -196,8 +202,8 @@ td {
 }
 
 .boxA {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   border-radius: 1rem 0rem 0rem 1rem;
   display: inline-block;
   width: 50%;
@@ -205,9 +211,9 @@ td {
 }
 
 .boxB {
-  background-color: black;
+  background-color: white;
   border-radius: 0rem 1rem 1rem 0rem;
-  color: white;
+  color: black;
   display: inline-block;
 
   width: 50%;
@@ -239,8 +245,8 @@ td {
 }
 footer {
   justify-content: space-between;
-  background-color: #000000;
-  color: #fafafa;
+  background-color: white;
+  color: black;
   text-align: center;
   line-height: 3rem;
   font-size: 1.6rem;
@@ -254,6 +260,10 @@ footer {
   .titreB {
     height: 3rem;
   }
+}
+
+.box1Adresse {
+  width: 90%;
 }
 @media all and (max-width: 1024px) {
   body {
